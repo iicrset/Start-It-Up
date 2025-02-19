@@ -1,16 +1,17 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import logo from '../Assets/LOGO.png';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
       <nav style={{ backgroundColor: "#F4F4EE" }} className='shadow-lg relative'>
-      <div className="mx-auto max-w-6xl px-4">
-        <div className="flex h-20 items-center justify-between">
+      <div className="mx-auto max-w-6xl ">
+        <div className="flex h-24 items-center justify-between">
           {/* Logo */}
-          <a href="/" className="text-2xl font-bold text-orange-600">
-            Start It Up
+          <a href="/" className="text-2xl font-bold flex items-center">
+            <img src={logo} alt="Start It Up Logo" className="px-5 h-[80px]" />
           </a>
 
           {/* Desktop Navigation */}
