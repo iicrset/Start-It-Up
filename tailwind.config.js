@@ -10,6 +10,7 @@ export default {
         primary: '#FF6B35',
         secondary: '#2563EB',
       },
+      
     },
   },
   plugins: [],

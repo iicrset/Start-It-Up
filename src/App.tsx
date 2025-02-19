@@ -22,7 +22,7 @@ function App() {
             Program Timeline
           </h2>
           <div className="grid gap-8 md:grid-cols-3">
-            <div className="rounded-lg border border-gray-200 p-6">
+            <div className="rounded-lg border border-gray-200 p-6 shadow-lg">
               <div className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
                 Phase 1: Weeks 1-2
               </div>
@@ -31,7 +31,7 @@ function App() {
                 Validate your idea through customer interviews and build your minimum viable product
               </p>
             </div>
-            <div className="rounded-lg border border-gray-200 p-6">
+            <div className="rounded-lg border border-gray-200 p-6 shadow-lg">
               <div className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
                 Phase 2: Weeks 3-6
               </div>
@@ -40,7 +40,7 @@ function App() {
                 Focus on business development, growth strategies, and pitch deck preparation
               </p>
             </div>
-            <div className="rounded-lg border border-gray-200 p-6">
+            <div className="rounded-lg border border-gray-200 p-6 shadow-lg">
               <div className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
                 Demo Day
               </div>

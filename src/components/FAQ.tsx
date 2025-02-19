@@ -51,7 +51,7 @@ export function FAQ() {
         {faqs.length > 5 && (
           <button
             onClick={() => setShowAll(!showAll)}
-            className="mt-8 w-full rounded-lg bg-gray-100 py-3 text-center font-semibold text-gray-700 hover:bg-gray-200 transition-colors duration-200"
+            className="mt-8 w-full rounded-lg bg-gray-100 py-3 text-center font-semibold text-gray-700 hover:bg-gray-200 transition-colors duration-200 shadow-lg"
           >
             {showAll ? (
               "Show Less"

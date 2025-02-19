@@ -12,7 +12,7 @@ import NikhilKilivayil from '../Assets/Nikhil_Kilivayil.jpeg';
 import PratikPrakash from '../Assets/Pratik_Prakash.jpeg';
 import VivekMV from '../Assets/Vivek_M_V.jpeg';
 import CyriacTMeppuram from '../Assets/cyriac_t_meppuram.jpeg';
-
+import NitheeshKurian from '../Assets/Nitheesh_Kuriyan.jpeg';
 export const mentors = [
     {
         name: 'Ashwin Chhabria',
@@ -52,8 +52,8 @@ export const mentors = [
     {
         name: 'Pratik Prakash',
         image: PratikPrakash,
-        designation: null,
-        organization: 'Past- Mailmodo (Y Combinator \'21), IITR',
+        designation: 'Founding Member',
+        organization: 'Mailmodo (Y Combinator \'21)',
         description: 'Mentor'
     },
     {
@@ -101,16 +101,23 @@ export const mentors = [
     {
         name: 'Nikhil Kilivayil',
         image: NikhilKilivayil,
-        designation: null,
+        designation: 'Founder',
         organization: 'Brototype',
         description: 'Guest'
     },
     {
         name: 'Vivek M V',
         image: VivekMV,
-        designation: null,
+        designation: 'Founder',
         organization: 'Venture Navigator',
         description: 'Guest'
+    },
+    {
+        name: 'Nitheesh Kurian',
+        image: NitheeshKurian,
+        designation: 'Nodal Officer',
+        organization: 'RSET IEDC',
+        description: 'Speaker on Finding & Validating a Startup Idea'
     }
 ]
 

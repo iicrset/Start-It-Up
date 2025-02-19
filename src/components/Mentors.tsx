@@ -5,7 +5,10 @@ export function Mentors() {
   const scrollContainer = (direction: 'left' | 'right') => {
     const container = document.querySelector('.mentors-container');
     if (container) {
-      const scrollAmount = direction === 'left' ? -300 : 300; // Width of one card
+      // Calculate total width of one card including gap
+      const cardWidth = 300; // Width of one card on desktop
+      const gap = 24; // 6 * 4px (md:gap-6)
+      const scrollAmount = (cardWidth + gap) * (direction === 'left' ? -1 : 1);
       container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   };
@@ -16,11 +19,11 @@ export function Mentors() {
         <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
           Learn from the Best
         </h2>
-        <div className="relative">
+        <div className="relative px-12 md:px-16">
           {/* Previous Button */}
           <button
             onClick={() => scrollContainer('left')}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-20 bg-[#ffe2c9]/80 p-2 md:p-4 rounded-full shadow-lg hover:bg-[#ffca9c] transition-all"
+            className="absolute -left-4 md:-left-8 top-1/2 -translate-y-1/2 z-20 bg-[#ffe2c9]/80 p-2 md:p-4 rounded-full shadow-lg hover:bg-[#ffca9c] transition-all"
             aria-label="Previous mentor"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="black" className="w-6 h-6 md:w-8 md:h-8">
@@ -29,11 +32,11 @@ export function Mentors() {
           </button>
 
           {/* Fade Overlays */}
-          <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-0 md:w-20 bg-gradient-to-r from-gray-50 to-transparent"></div>
-          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-0 md:w-20 bg-gradient-to-l from-gray-50 to-transparent"></div>
+          <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-gray-50 md:from-gray-50/50 to-transparent"></div>
+          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-gray-50 md:from-gray-50/50 to-transparent"></div>
 
           {/* Mentors Container */}
-          <div className="mentors-container overflow-auto flex gap-4 md:gap-6 scroll-smooth scrollbar-hide">
+          <div className="mentors-container overflow-auto flex gap-4 md:gap-6 scroll-smooth scrollbar-hide px-8 md:px-12">
             {mentors.map((mentor) => (
               <SpotlightCard 
                 spotlightColor="rgba(240, 114, 12, 0.2)" 
@@ -70,7 +73,7 @@ export function Mentors() {
           {/* Next Button */}
           <button
             onClick={() => scrollContainer('right')}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-[#ffe2c9]/80 p-2 md:p-4 rounded-full shadow-lg hover:bg-[#ffca9c] transition-all"
+            className="absolute -right-4 md:-right-8 top-1/2 -translate-y-1/2 z-20 bg-[#ffe2c9]/80 p-2 md:p-4 rounded-full shadow-lg hover:bg-[#ffca9c] transition-all"
             aria-label="Next mentor"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 md:w-8 md:h-8">
