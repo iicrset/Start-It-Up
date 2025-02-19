@@ -36,7 +36,7 @@ export function Mentors() {
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-gray-50 md:from-gray-50/50 to-transparent"></div>
 
           {/* Mentors Container */}
-          <div className="mentors-container overflow-auto flex gap-4 md:gap-6 scroll-smooth scrollbar-hide px-8 md:px-12">
+          <div className="mentors-container overflow-auto flex gap-4 md:gap-6 scroll-smooth px-8 md:px-12 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
             {mentors.map((mentor) => (
               <SpotlightCard 
                 spotlightColor="rgba(240, 114, 12, 0.2)" 

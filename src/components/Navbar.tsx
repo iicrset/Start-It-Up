@@ -6,8 +6,8 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-      <nav style={{ backgroundColor: "#F4F4EE" }} className='shadow-lg relative'>
-      <div className="mx-auto max-w-6xl ">
+      <nav style={{ backgroundColor: "#F4F4EE" }} className='shadow-lg relative px-4 sm:px-6'>
+      <div className="mx-auto max-w-6xl">
         <div className="flex h-24 items-center justify-between">
           {/* Logo */}
           <a href="/" className="text-2xl font-bold flex items-center">
