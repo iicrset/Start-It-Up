@@ -38,7 +38,7 @@ export const mentors = [
     {
         name: 'Joshane Kelsy',
         image: JoshaneKelsy,
-        designation: 'Senior Product Manager',
+        designation: 'Group Product Manager',
         organization: 'Rakuten',
         description: 'Mentor'
     },
