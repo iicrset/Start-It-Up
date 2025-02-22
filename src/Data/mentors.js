@@ -10,9 +10,9 @@ import JoshaneKelsy from '../Assets/Joshane_Kelsy.jpeg';
 import MilanPSony from '../Assets/Milan_P_Sony.jpeg';
 import NikhilKilivayil from '../Assets/Nikhil_Kilivayil.jpeg';
 import PratikPrakash from '../Assets/Pratik_Prakash.jpeg';
-import VivekMV from '../Assets/Vivek_M_V.jpeg';
 import CyriacTMeppuram from '../Assets/cyriac_t_meppuram.jpeg';
 import NitheeshKurian from '../Assets/Nitheesh_Kuriyan.jpeg';
+import SaurabhWani from '../Assets/Saurabh_Wani.jpeg';
 export const mentors = [
     {
         name: 'Ashwin Chhabria',
@@ -106,18 +106,18 @@ export const mentors = [
         description: 'Guest'
     },
     {
-        name: 'Vivek M V',
-        image: VivekMV,
-        designation: 'Founder',
-        organization: 'Venture Navigator',
-        description: 'Guest'
-    },
-    {
         name: 'Nitheesh Kurian',
         image: NitheeshKurian,
         designation: 'Nodal Officer',
         organization: 'RSET IEDC',
         description: 'Speaker on Finding & Validating a Startup Idea'
+    },
+    {
+        name: 'Saurabh Wani',
+        image: SaurabhWani,
+        designation: 'Founding Growth Marketer',
+        organization: "Trupeer.ai, Ex Notion (YC S21)",
+        description: 'Speaker on "Leveraging social media and mastering content strategy"'
     }
 ]
 
