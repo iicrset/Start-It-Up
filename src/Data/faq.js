@@ -79,7 +79,7 @@ export const faqs = [
 
         question: "What do selected startups receive?",
 
-        answer: "Structured mentorship from experienced founders and investors.\nOpportunity to secure ₹2 lakh in funding from Kerala Startup Mission (KSUM) for selected teams.\nCo-working space for the duration of the program.\nAccess to industry leaders, VCs, and angel investors through Demo Day."
+        answer: "Structured mentorship from experienced founders and investors.\nOpportunity to secure up to ₹2 lakh in funding from Kerala Startup Mission (KSUM) for selected teams.\nCo-working space for the duration of the program.\nAccess to industry leaders, VCs, and angel investors through Demo Day."
 
     },
 
