@@ -66,7 +66,9 @@ function App() {
             Join our next cohort and transform your idea into a successful startup
           </p>
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdw0M6NOiE-jg6GmAjozKKg3j16esfsYcYl2NwlNQrphG0eZw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-white transition hover:bg-primary/90"
           >
             Apply Now <ArrowRight className="ml-2 h-5 w-5" />

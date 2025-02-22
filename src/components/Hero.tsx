@@ -25,13 +25,14 @@ export function Hero() {
           </p>
           <div className="flex flex-col items-center gap-4">
             <a
-              href="#apply"
-                      className="inline-flex items-center rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-white transition hover:bg-[#F5F4EF] transition-colors duration-100 hover:text-primary shadow-lg group"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdw0M6NOiE-jg6GmAjozKKg3j16esfsYcYl2NwlNQrphG0eZw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-white transition hover:bg-[#F5F4EF] transition-colors duration-100 hover:text-primary shadow-lg group"
             >
               Apply Now <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
             <p className="text-sm font-medium text-gray-600">
-              Opening soon...
             </p>
           </div>
         </div>
