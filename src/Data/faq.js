@@ -18,18 +18,6 @@ export const faqs = [
 
     },
 
-
-
-    {
-
-        question: "Can I switch mentors if needed?",
-
-        answer: "Yes, you can request to switch mentors if you feel the match isn't right. We want to ensure you have the best possible mentoring experience and will work with you to find a better fit."
-
-    },
-
-
-
     {
 
         question: "Who should apply?",
