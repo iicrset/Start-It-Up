@@ -14,6 +14,8 @@ import CyriacTMeppuram from '../Assets/cyriac_t_meppuram.jpeg';
 import NitheeshKurian from '../Assets/Nitheesh_Kuriyan.jpeg';
 import SaurabhWani from '../Assets/Saurabh_Wani.jpeg';
 import AnvarTK from '../Assets/Anvar_T_K.jpg';
+import EricVilla from '../Assets/Eric_Villa.jpg';
+import YasirM from '../Assets/Yasir_M.jpg';
 export const mentors = [
     {
         name: 'Ashwin Chhabria',
@@ -126,6 +128,19 @@ export const mentors = [
         designation: "Founder, CEO",
         organization: "CookieYes & WebToffee",
         description: 'Speaker on "How to find your first 100 customers"',
-},
+    },
+    {
+        name: 'Eric Villa',
+        image: EricVilla,
+        designation: 'Head of Content Strategy',
+        organization: 'MKBHD',
+        description: 'Speaker on "Building an Engaging Online Presence: Content Strategy for Startups"'
+    },
+    {
+        name: 'Yasir M',
+        image: YasirM,
+        designation: 'Software Architect',
+        organization: 'Mercedes Benz',
+        description: 'Speaker on "Building Scalable Startups: Architecture Decisions & Pitfalls to Avoid"'
+    }
 ];
-
