@@ -1,10 +1,8 @@
 import AndreaOliva from '../Assets/Andrea_Oliva.jpeg';
 import AnirudhDayanand from '../Assets/Anirudh_Dayanand.jpeg';
-import AshwinChhabria from '../Assets/Ashwin_Chhabria.jpeg';
 import BibsonJoseph from '../Assets/Bibson_Joseph.jpeg';
 import FahadPN from '../Assets/Fahad_P_N.jpeg';
 import JacobRamos from '../Assets/Jacob_Ramos.jpeg';
-import JanBeke from '../Assets/Jan_Beke.jpeg';
 import JofinJoseph from '../Assets/Jofin_Joseph.jpeg';
 import JoshaneKelsy from '../Assets/Joshane_Kelsy.jpeg';
 import MilanPSony from '../Assets/Milan_P_Sony.jpeg';
@@ -16,27 +14,20 @@ import SaurabhWani from '../Assets/Saurabh_Wani.jpeg';
 import AnvarTK from '../Assets/Anvar_T_K.jpg';
 import EricVilla from '../Assets/Eric_Villa.jpg';
 import YasirM from '../Assets/Yasir_M.jpg';
+import VinodBalan from '../Assets/Vinod_Balan.jpg';
+import CSManuFrancis from '../Assets/C_S_Manu_Francis.jpg';
+import AnandSukumaran from '../Assets/Anand_Sukumaran.jpg';
+import RabinBaby from '../Assets/Rabin_Baby.jpg';
+import JudeMathew from '../Assets/Jude_Mathew.jpg';
+import PiyushAggarwal from '../Assets/Piyush_Aggarwal.jpg';
+import FelixJosemon from '../Assets/Felix_Josemon.jpg';
 export const mentors = [
-    {
-        name: 'Ashwin Chhabria',
-        image: AshwinChhabria,
-        designation: 'Strategic Senior Partnerships Development Manager',
-        organization: 'Microsoft',
-        description: 'Mentor'
-    },
     {
         name: 'Andrea Oliva',
         image: AndreaOliva,
         designation: 'Forum Leader',
         organization: 'OpenAI',
         description: 'Speaker on "MVP & Product Management for Startups"'
-    },
-    {
-        name: 'Jan Beke',
-        image: JanBeke,
-        designation: 'GTM',
-        organization: 'OpenAI',
-        description: 'Speaker on "GO to market strategies for early stage startup"'
     },
     {
         name: 'Joshane Kelsy',
@@ -67,10 +58,10 @@ export const mentors = [
         description: 'Speaker on "Approaching Angel Investors & VCs"'
     },
     {
-        name: 'Jacob Ramos',
-        image: JacobRamos,
-        designation: 'Founder',
-        organization: 'Bruin AI',
+        name: 'Anand Sukumaran',
+        image: AnandSukumaran,
+        designation: 'Co-Founder & CTO',
+        organization: 'Engagespot (Techstars NYC)',
         description: 'Mentor'
     },
     {
@@ -142,5 +133,47 @@ export const mentors = [
         designation: 'Software Architect',
         organization: 'Mercedes Benz',
         description: 'Speaker on "Building Scalable Startups: Architecture Decisions & Pitfalls to Avoid"'
+    },
+    {
+        name: 'Vinod Balan',
+        image: VinodBalan,
+        designation: 'Founder',
+        organization: 'VOYE HOMES',
+        description: 'Mentor'
+    },
+    {
+        name: 'CS Manu Francis',
+        image: CSManuFrancis,
+        designation: 'Startup Growth Consultant',
+        organization: 'GHC Growth Lab',
+        description: 'Mentor'
+    },
+    {
+        name: 'Rabin Baby',
+        image: RabinBaby,
+        designation: 'Founder',
+        organization: 'Taxhero',
+        description: 'Mentor'
+    },
+    {
+        name: 'Jude Mathew',
+        image: JudeMathew,
+        designation: 'CTO & Founder',
+        organization: 'SmartCard AI',
+        description: 'Mentor'
+    },
+    {
+        name: 'Piyush Aggarwal',
+        image: PiyushAggarwal,
+        designation: 'Product Manager',
+        organization: 'Zepto',
+        description: 'Mentor'
+    },
+    {
+        name: 'Felix Josemon',
+        image: FelixJosemon,
+        designation: 'Founder',
+        organization: 'KPH, Final Apps, AB Final',
+        description: 'Guest'
     }
 ];
