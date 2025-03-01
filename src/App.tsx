@@ -7,7 +7,6 @@ import { FAQ } from './components/FAQ.tsx';
 import iic from './Assets/iic.png';
 import rset_innovation from './Assets/rset_innovation.png';
 import rset from './Assets/rset.png';
-
 function App() {
   return (
     <div className="min-h-screen bg-white">

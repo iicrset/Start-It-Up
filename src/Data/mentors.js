@@ -13,6 +13,7 @@ import PratikPrakash from '../Assets/Pratik_Prakash.jpeg';
 import CyriacTMeppuram from '../Assets/cyriac_t_meppuram.jpeg';
 import NitheeshKurian from '../Assets/Nitheesh_Kuriyan.jpeg';
 import SaurabhWani from '../Assets/Saurabh_Wani.jpeg';
+import AnvarTK from '../Assets/Anvar_T_K.jpg';
 export const mentors = [
     {
         name: 'Ashwin Chhabria',
@@ -24,7 +25,7 @@ export const mentors = [
     {
         name: 'Andrea Oliva',
         image: AndreaOliva,
-        designation: 'Forum manager',
+        designation: 'Forum Leader',
         organization: 'OpenAI',
         description: 'Speaker on "MVP & Product Management for Startups"'
     },
@@ -47,7 +48,7 @@ export const mentors = [
         image: BibsonJoseph,
         designation: 'Data Scientist',
         organization: 'The World Bank',
-        description: 'Speaker on building an MVP with limited resources'
+        description: 'Speaker on "Building an MVP with limited resources"'
     },
     {
         name: 'Pratik Prakash',
@@ -61,7 +62,7 @@ export const mentors = [
         image: JofinJoseph,
         designation: 'Partner',
         organization: 'Pienza',
-        description: 'Speaker on approaching Angel Investors & VCs'
+        description: 'Speaker on "Approaching Angel Investors & VCs"'
     },
     {
         name: 'Jacob Ramos',
@@ -82,21 +83,21 @@ export const mentors = [
         image: AnirudhDayanand,
         designation: 'Co-Founder',
         organization: 'SoftServedWeb',
-        description: 'Speaker at MVP Sprint'
+        description: 'Speaker at "MVP Sprint"'
     },
     {
         name: 'Fahad P N',
         image: FahadPN,
         designation: 'Co-Founder',
         organization: 'SoftServedWeb',
-        description: 'Speaker at MVP Sprint'
+        description: 'Speaker at "MVP Sprint"'
     },
     {
         name: 'Milan P Sony',
         image: MilanPSony,
         designation: 'Growth Marketer and SEO Content Manager',
         organization: 'Final Apps',
-        description: 'Speaker on Digital Marketing & Growth Hacking'
+        description: 'Speaker on "Digital Marketing & Growth Hacking"'
     },
     {
         name: 'Nikhil Kilivayil',
@@ -110,7 +111,7 @@ export const mentors = [
         image: NitheeshKurian,
         designation: 'Nodal Officer',
         organization: 'RSET IEDC',
-        description: 'Speaker on Finding & Validating a Startup Idea'
+        description: 'Speaker on "Finding & Validating a Startup Idea"'
     },
     {
         name: 'Saurabh Wani',
@@ -118,6 +119,13 @@ export const mentors = [
         designation: 'Founding Growth Marketer',
         organization: "Trupeer.ai, Ex Notion (YC S21)",
         description: 'Speaker on "Leveraging social media and mastering content strategy"'
-    }
-]
+    },
+    {
+        name: "Anvar T K",
+        image: AnvarTK,
+        designation: "Founder, CEO",
+        organization: "CookieYes & WebToffee",
+        description: 'Speaker on "How to find your first 100 customers"',
+},
+];
 
