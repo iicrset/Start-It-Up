@@ -14,12 +14,12 @@ export function Mentors() {
   };
 
   return (
-    <section className="bg-gray-50 px-4 py-20 overflow-hidden">
+    <section className="bg-gray-100 px-4 py-20 overflow-hidden">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
           Learn from the Best
         </h2>
-        <div className="relative px-12 md:px-16">
+        <div className="relative px-12 md:px-16 bg-gray-100">
           {/* Previous Button */}
           <button
             onClick={() => scrollContainer('left')}
@@ -32,15 +32,15 @@ export function Mentors() {
           </button>
 
           {/* Fade Overlays */}
-          <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-gray-50 md:from-gray-50/50 to-transparent"></div>
-          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-gray-50 md:from-gray-50/50 to-transparent"></div>
+          <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-gray-100 md:from-gray-100/50 to-transparent"></div>
+          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-gray-100 md:from-gray-100/50 to-transparent"></div>
 
           {/* Mentors Container */}
           <div className="mentors-container overflow-auto flex gap-4 md:gap-6 scroll-smooth px-8 md:px-12 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
             {mentors.map((mentor) => (
-              <SpotlightCard 
-                spotlightColor="rgba(240, 114, 12, 0.2)" 
-                key={`first-${mentor.name}`} 
+              <SpotlightCard
+                spotlightColor="rgba(240, 114, 12, 0.2)"
+                key={`first-${mentor.name}`}
                 className="flex-none w-[250px] md:w-[300px] my-6 md:my-10 overflow-hidden rounded-xl bg-white p-4 md:p-6 shadow-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="text-center">
