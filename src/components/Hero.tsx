@@ -23,6 +23,7 @@ export function Hero() {
         </h1>
         <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-600">
           6-week accelerator providing mentorship and workspace to ambitious founders
+          IIC RSET presents Start It Up Edition II in colloboration with RSET IEDC & Rajagiri ORBIIT
         </p>
         <div className="flex flex-col items-center gap-4">
           <a
