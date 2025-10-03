@@ -25,7 +25,7 @@ export function Hero() {
           6-week accelerator providing mentorship and workspace to ambitious founders
           
         </p>
-        <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-600">IIC RSET presents Start It Up Edition II in colloboration with RSET IEDC & Rajagiri ORBIIT</p>
+        <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-600">IIC RSET presents Start It Up Edition II in collaboration with RSET IEDC & Rajagiri ORBIIT</p>
         <div className="flex flex-col items-center gap-4">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdw0M6NOiE-jg6GmAjozKKg3j16esfsYcYl2NwlNQrphG0eZw/viewform"
