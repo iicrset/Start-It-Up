@@ -11,6 +11,7 @@ export function Sponsers() {
                     Our Sponsors
                 </h2>
             </div>
+
             {/* Associate Sponsors */}
             <div className="mt-16">
                 <h3 className="text-center text-2xl font-semibold text-gray-800 mb-10">
@@ -113,5 +114,6 @@ export function Sponsers() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
+

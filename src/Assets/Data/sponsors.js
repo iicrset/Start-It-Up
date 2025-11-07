@@ -28,4 +28,4 @@ export const sponsors = {
             link: 'https://startuproutes.com/'
         }
     ]
-};
+}; 

@@ -1,5 +1,4 @@
 import AndreaOliva from '../Assets/Andrea_Oliva.jpeg';
-import Brajesh from '../Assets/Brajesh_Kaimal.jpg';
 import AnirudhDayanand from '../Assets/Anirudh_Dayanand.jpeg';
 import BibsonJoseph from '../Assets/Bibson_Joseph.jpeg';
 import FahadPN from '../Assets/Fahad_P_N.jpeg';
@@ -25,7 +24,7 @@ import FelixJosemon from '../Assets/Felix_Josemon.jpg';
 export const mentors = [
     {
         name: 'Brajesh C. Kaimal PMP',
-        image: Brajesh,
+        image: AndreaOliva,
         designation: 'Co-founder, Investor, Entrepreneur, Startup Mentor',
         organization: 'Malabar Angel Network',
         description: 'Journey of a Founder'

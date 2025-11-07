@@ -8,6 +8,7 @@ import iic from './Assets/iic.png';
 import rset_innovation from './Assets/rset_innovation.png';
 import rset from './Assets/rset.png';
 import { Sponsers } from './components/Sponsers.jsx';
+
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -16,42 +17,65 @@ function App() {
       <Features />
       
       {/* Timeline Section */}
-      <section className="px-4 py-20">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
-            Program Timeline
-          </h2>
-          <div className="grid gap-8 md:grid-cols-3">
-            <div className="rounded-lg border border-gray-200 p-6 shadow-lg">
-              <div className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
-                Phase 1: Weeks 1-2
-              </div>
-              <h3 className="mb-2 text-xl font-semibold">Idea Validation & MVP</h3>
-              <p className="text-gray-600">
-                Validate your idea through customer interviews and build your minimum viable product
-              </p>
-            </div>
-            <div className="rounded-lg border border-gray-200 p-6 shadow-lg">
-              <div className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
-                Phase 2: Weeks 3-6
-              </div>
-              <h3 className="mb-2 text-xl font-semibold">Growth & Pitching</h3>
-              <p className="text-gray-600">
-                Focus on business development, growth strategies, and pitch deck preparation
-              </p>
-            </div>
-            <div className="rounded-lg border border-gray-200 p-6 shadow-lg">
-              <div className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
-                Demo Day
-              </div>
-              <h3 className="mb-2 text-xl font-semibold">Investor Showcase</h3>
-              <p className="text-gray-600">
-                Present your startup to our network of investors and industry leaders
-              </p>
-            </div>
-          </div>
+   {/* Timeline Section */}
+{/* Program Timeline Section */}
+<section className="relative overflow-hidden px-4 py-24 bg-gradient-to-b from-[#7A0000] via-[#8B0000] to-[#B30000] text-white">
+  {/* Subtle texture or overlay glow */}
+  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.05),transparent_70%)] pointer-events-none"></div>
+
+  <div className="relative mx-auto max-w-6xl text-center">
+<h2 className="mb-16 text-4xl md:text-5xl font-extrabold tracking-wide text-[#FFD700] drop-shadow-[0_3px_10px_rgba(255,215,0,0.4)]">
+  Program Timeline
+</h2>
+
+
+    {/* Phase Boxes Grid */}
+    <div className="grid gap-10 md:grid-cols-3">
+      {[
+        {
+          phase: "Phase 1",
+          title: "Idea Validation & Shortlisting",
+          desc: "Teams identify problems, brainstorm innovative solutions, and validate ideas through mentor guidance.",
+        },
+        {
+          phase: "Phase 2",
+          title: "MVP Development",
+          desc: "Build and refine your minimum viable product with technical and business support sessions.",
+        },
+        {
+          phase: "Phase 3",
+          title: "Product Validation",
+          desc: "Test your MVP with early users and receive mentor feedback to improve product-market fit.",
+        },
+        {
+          phase: "Phase 4",
+          title: "Business Model & Strategy",
+          desc: "Develop a sustainable business model and refine your strategy for market entry.",
+        },
+        {
+          phase: "Phase 5",
+          title: "Pitch Preparation",
+          desc: "Craft a compelling pitch deck and presentation with mentorship from industry experts.",
+        },
+        {
+          phase: "Phase 6",
+          title: "Demo Day",
+          desc: "Showcase your startup to investors and industry leaders at the final demo day event.",
+        },
+      ].map((item, index) => (
+        <div
+          key={index}
+          className="rounded-2xl bg-white/95 backdrop-blur-md p-8 shadow-[0_8px_40px_rgba(0,0,0,0.25)] border border-white/20 transform transition-all hover:-translate-y-2 hover:shadow-[0_12px_50px_rgba(255,255,255,0.15)]"
+        >
+          <h3 className="mb-3 text-2xl font-bold text-[#8B0000]">{item.phase}</h3>
+          <h4 className="mb-3 text-xl font-semibold text-gray-900">{item.title}</h4>
+          <p className="text-gray-700 leading-relaxed">{item.desc}</p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       <Mentors />
       <Sponsers />
