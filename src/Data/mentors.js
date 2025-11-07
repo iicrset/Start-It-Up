@@ -34,6 +34,5 @@ export const mentors = [
         organization: 'TWT Venture Studio',
         description: 'Design Thinking and Problem Validation'
     },
-  
     
 ];
