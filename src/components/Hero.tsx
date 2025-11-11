@@ -64,9 +64,9 @@ export function Hero() {
 
         {/* Main Heading */}
         <motion.h2
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.4, duration: 0.8 }}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           className="mb-8 text-[clamp(3rem,10vw,6rem)] font-extrabold text-white drop-shadow-[0_5px_12px_rgba(0,0,0,0.5)] uppercase leading-none tracking-tight"
         >
           The Kickstart
