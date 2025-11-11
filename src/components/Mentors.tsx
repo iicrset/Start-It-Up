@@ -38,7 +38,7 @@ export function Mentors() {
 
           {/* Speaker Cards */}
           <div className="mentors-container overflow-auto flex gap-4 md:gap-6 scroll-smooth px-8 md:px-12 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
-            {mentors.map((mentor) => (
+            {mentors.map((mentor: any) => (
               <SpotlightCard
                 spotlightColor="rgba(255,255,255,0)" // remove orange tint
                 key={`first-${mentor.name}`}
