@@ -24,9 +24,9 @@ export const faqs = [
   },
 
   {
-    question: "How is StartItUp different from other startup programs?",
+    question: "How is Start-It-Up different from other startup programs?",
     answer:
-      "StartItUp is not just a bootcamp it’s a structured six-month journey designed to take you from idea to investor readiness. It focuses on execution, continuous mentorship, and real-world exposure through Demo Days and the Startup Festival.",
+      "Start-It-Up is not just a bootcamp it’s a structured six-month journey designed to take you from idea to investor readiness. It focuses on execution, continuous mentorship, and real-world exposure through Demo Days and the Startup Festival.",
   },
 
   {
