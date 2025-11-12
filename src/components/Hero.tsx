@@ -99,7 +99,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdw0M6NOiE-jg6GmAjozKKg3j16esfsYcYl2NwlNQrphG0eZw/viewform"
+          href="https://konfhub.com/start-it-up-edition-ii-the-kickstart"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center rounded-full bg-[#FFD95A] px-8 py-4 text-lg font-semibold text-[#b60a0a] transition-all duration-200 hover:bg-[#FFE47A] shadow-lg group"

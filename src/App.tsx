@@ -73,12 +73,11 @@ function App() {
         </div>
       ))}
     </div>
-  </div>
-</section>
-
+  </div> 
+</section>  
 
       <Mentors />
-      <Sponsers />
+      {/* <Sponsers />  remove the comment to bring Sponsers back */} 
       <FAQ />
 
       {/* CTA Section */}
@@ -91,7 +90,7 @@ function App() {
             Join our next cohort and transform your idea into a successful startup
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdw0M6NOiE-jg6GmAjozKKg3j16esfsYcYl2NwlNQrphG0eZw/viewform"
+            href="https://konfhub.com/start-it-up-edition-ii-the-kickstart"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-white transition hover:bg-primary/90"
@@ -113,7 +112,7 @@ function App() {
             </div>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
               <p className="text-sm cursor-pointer text-center">
-                © 2024 StartItUp. All rights reserved.
+                © 2025 StartItUp. All rights reserved.
               </p>
               <div className="flex gap-6 mt-4">
                 <a className="hover:text-white cursor-pointer">Contact</a>
