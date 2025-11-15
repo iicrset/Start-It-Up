@@ -77,7 +77,7 @@ function App() {
 </section>  
 
       <Mentors />
-      {/* <Sponsers />  remove the comment to bring Sponsers back */} 
+      <Sponsers />
       <FAQ />
 
       {/* CTA Section */}

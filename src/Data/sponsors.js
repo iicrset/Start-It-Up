@@ -1,31 +1,24 @@
-import cied from '../Assets/cied.jpg';
-import mothers from '../Assets/mothers.jpg';
-import startup_routes from '../Assets/startup_routes.jpg';
+import investor from '../Assets/Investor.jpeg';
+import community_partner from '../Assets/Community.jpeg';
 
 export const sponsors = {
     associate: [
         {
-            name: 'CIED',
-            image: cied,
-            alt: 'cied',
-            height: 'h-20',
-            link: 'https://cied.eu/'
+            name: 'Investor Network Partner',
+            image: investor,
+            alt: 'Investor Network Partner Logo',
+            height: 'h-24',
+            link: 'https://malabarangels.org/'
         }
     ],
+
     community: [
         {
-            name: 'Mothers',
-            image: mothers,
-            alt: 'mothers',
+            name: 'Community Partner',
+            image: community_partner,
+            alt: 'Community Partner Logo',
             height: 'h-24',
-            link: 'https://www.mothersfoods.in/'
-        },
-        {
-            name: 'Startup Routes',
-            image: startup_routes,
-            alt: 'startup_routes',
-            height: 'h-24',
-            link: 'https://startuproutes.com/'
+            link: 'https://kerala.tie.org/'
         }
     ]
 };
