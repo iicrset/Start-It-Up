@@ -29,3 +29,29 @@
   border: 2px solid transparent;
   background-clip: padding-box;
 }
+/* parallax breathing background */
+@keyframes parallax {
+  0%   { transform: scale(1.03) translateY(0px); }
+  50%  { transform: scale(1.08) translateY(-18px); }
+  100% { transform: scale(1.03) translateY(0px); }
+}
+.animate-parallax {
+  animation: parallax 16s ease-in-out infinite;
+  will-change: transform;
+  filter: saturate(1.05) contrast(1.02);
+}
+
+/* fade-in for the main website */
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadein {
+  animation: fadein 900ms ease-out forwards;
+}
+
+/* small utility shadow for big headings */
+.drop-shadow-lg {
+  text-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
