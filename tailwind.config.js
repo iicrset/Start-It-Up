@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['GlacialIndifference', 'sans-serif'],
+        decalotype: ['Decalotype', 'sans-serif'],
       },
       colors: {
         primary: '#FF6B35',

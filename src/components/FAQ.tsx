@@ -75,7 +75,7 @@ export function FAQ() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
     >
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-3xl relative z-10">
         {/* Title (simplified solid color instead of gradient) */}
         <motion.h2
           className="mb-12 text-center text-3xl md:text-4xl font-extrabold text-[#b60a0a] drop-shadow-sm"

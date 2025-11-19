@@ -6,7 +6,7 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="shadow-lg relative px-4 sm:px-6 bg-red-700">
+    <nav className="shadow-lg relative z-20 px-4 sm:px-6 bg-red-700">
       <div className="mx-auto max-w-6xl">
         <div className="flex h-24 items-center justify-between">
           

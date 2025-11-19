@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Decalotype';
+  src: url('./Assets/fonts/decalotype.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('./Assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-decalotype;
+  }
+}
+
 /* Custom Scrollbar Styles */
 ::-webkit-scrollbar {
   width: 15px;

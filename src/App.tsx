@@ -1,19 +1,27 @@
 import { ArrowRight } from 'lucide-react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero.tsx';
+import { About } from './components/About.tsx';
 import { Features } from './components/Features.tsx';
 import { Mentors } from './components/Mentors.tsx';
 import { FAQ } from './components/FAQ.tsx';
 import iic from './Assets/iic.png';
 import rset_innovation from './Assets/rset_innovation.png';
 import rset from './Assets/rset.png';
+import gridPattern from './Assets/Wavy_Grid.png'; 
 import { Sponsers } from './components/Sponsers.jsx';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white relative">
+      {/* Texture Overlay */}
+      <div 
+        className="absolute inset-0 z-[1] pointer-events-none opacity-25 bg-repeat"
+        style={{ backgroundImage: `url(${gridPattern})`, backgroundSize: '700px' }}
+      />
       <Navbar />
       <Hero />
+      <About />
       <Features />
       
       {/* Timeline Section */}
@@ -23,7 +31,7 @@ function App() {
   {/* Subtle texture or overlay glow */}
   <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.05),transparent_70%)] pointer-events-none"></div>
 
-  <div className="relative mx-auto max-w-6xl text-center">
+  <div className="relative z-10 mx-auto max-w-6xl text-center">
 <h2 className="mb-16 text-4xl md:text-5xl font-extrabold tracking-wide text-[#FFD700] drop-shadow-[0_3px_10px_rgba(255,215,0,0.4)]">
   Program Timeline
 </h2>
@@ -81,7 +89,7 @@ function App() {
       <FAQ />
 
       {/* CTA Section */}
-      <section className="bg-gray-900 px-4 py-20 text-white" id="apply">
+      <section className="relative z-10 bg-gray-900 px-4 py-20 text-white" id="apply">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">
             Ready to Start Your Journey?
@@ -101,7 +109,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer id='contact' className="bg-gray-900 px-4 py-8 text-gray-400">
+      <footer id='contact' className="relative z-10 bg-gray-900 px-4 py-8 text-gray-400">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col gap-8">
             {/* Bottom row with centered images */}

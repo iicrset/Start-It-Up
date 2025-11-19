@@ -6,7 +6,7 @@ export function Features() {
       id="features"
       className="px-4 py-20 bg-gradient-to-b from-white via-[#fff9e6] to-white"
     >
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl relative z-10">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
           {/* Expert Mentorship */}

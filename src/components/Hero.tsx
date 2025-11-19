@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Particles from "./Particles.jsx";
 import { motion } from "framer-motion";
+import logo from "../Assets/THE KICK START.png";
 
 export function Hero() {
   return (
@@ -28,11 +29,11 @@ export function Hero() {
 
       {/* Decorative “tape” elements */}
       <div className="absolute inset-0 pointer-events-none z-[1]">
-        <div className="absolute -top-8 -left-40 w-[220%] h-10 bg-[#FFD95A] rotate-[-8deg] flex items-center justify-center text-[#b60a0a] font-extrabold text-sm uppercase tracking-[0.3em] shadow-lg whitespace-nowrap animate-marquee">
+        <div className="absolute -top-8 -left-40 w-[220%] h-10 bg-[#FFAD41] rotate-[-8deg] flex items-center justify-center text-[#b60a0a] font-extrabold text-sm uppercase tracking-[0.3em] shadow-lg whitespace-nowrap animate-marquee">
           {Array(30).fill("Start It Up • ").join("")}
         </div>
 
-        <div className="absolute bottom-12 -right-40 w-[220%] h-10 bg-[#FFD95A] rotate-[8deg] flex items-center justify-center text-[#b60a0a] font-extrabold text-sm uppercase tracking-[0.3em] shadow-lg whitespace-nowrap animate-marquee-reverse">
+        <div className="absolute bottom-12 -right-40 w-[220%] h-10 bg-[#FFAD41] rotate-[8deg] flex items-center justify-center text-[#b60a0a] font-extrabold text-sm uppercase tracking-[0.3em] shadow-lg whitespace-nowrap animate-marquee-reverse">
           {Array(30).fill("Start It Up • ").join("")}
         </div>
       </div>
@@ -44,7 +45,7 @@ export function Hero() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-[clamp(1.2rem,3vw,1.8rem)] font-black tracking-wide uppercase mb-3 bg-gradient-to-r from-[#fff6b3] via-[#FFD95A] to-[#fff6b3] bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(255,255,150,0.6)]"
+          className="text-[clamp(1.2rem,3vw,1.8rem)] font-black tracking-wide uppercase mb-3 bg-gradient-to-r from-[#fff6b3] via-[#FFAD41] to-[#fff6b3] bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(255,255,150,0.6)]"
         >
           IIC RSET{" "}
           <span className="lowercase text-white/90 font-semibold text-[clamp(1rem,2vw,1.2rem)]">
@@ -52,25 +53,15 @@ export function Hero() {
           </span>
         </motion.p>
 
-        {/* Event Title */}
-        <motion.h1
+        {/* Event Title Image */}
+        <motion.img
+          src={logo}
+          alt="Start It Up Edition II - The Kickstart"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="mb-3 text-[clamp(2rem,5vw,3rem)] font-extrabold text-white uppercase tracking-widest drop-shadow-[0_3px_6px_rgba(0,0,0,0.3)]"
-        >
-          Start It Up Edition II
-        </motion.h1>
-
-        {/* Main Heading */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mb-8 text-[clamp(3rem,10vw,6rem)] font-extrabold text-white drop-shadow-[0_5px_12px_rgba(0,0,0,0.5)] uppercase leading-none tracking-tight"
-        >
-          The Kickstart
-        </motion.h2>
+          className="mb-8 w-full max-w-4xl object-contain drop-shadow-[0_5px_12px_rgba(0,0,0,0.5)]"
+        />
 
         {/* Tagline */}
         <motion.p
@@ -94,19 +85,30 @@ export function Hero() {
           <span className="font-semibold text-[#FFE97F]">Rajagiri ORBIIT</span>
         </motion.p>
 
-        {/* CTA Button */}
-        <motion.a
+        {/* CTA Buttons */}
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
-          href="https://konfhub.com/start-it-up-edition-ii-the-kickstart"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center rounded-full bg-[#FFD95A] px-8 py-4 text-lg font-semibold text-[#b60a0a] transition-all duration-200 hover:bg-[#FFE47A] shadow-lg group"
+          className="flex flex-col sm:flex-row gap-4 items-center"
         >
-          Apply Now
-          <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-        </motion.a>
+          <a
+            href="https://konfhub.com/start-it-up-edition-ii-the-kickstart"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-full bg-[#FFD95A] px-8 py-4 text-lg font-semibold text-[#b60a0a] transition-all duration-200 hover:bg-[#FFE47A] shadow-lg group"
+          >
+            Apply Now
+            <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+          </a>
+
+          <a
+            href="#about"
+            className="inline-flex items-center rounded-full border-2 border-white/30 bg-white/10 backdrop-blur-sm px-8 py-4 text-lg font-semibold text-white transition-all duration-200 hover:bg-white/20 hover:border-white/50 shadow-lg"
+          >
+            Learn More
+          </a>
+        </motion.div>
       </div>
     </section>
   );

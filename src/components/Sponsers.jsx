@@ -23,7 +23,7 @@ export function Sponsers() {
       {/* Soft glow background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08),transparent_70%)] pointer-events-none"></div>
 
-      <div className="relative mx-auto max-w-6xl text-center">
+      <div className="relative z-10 mx-auto max-w-6xl text-center">
         
         {/* Golden Heading */}
         <motion.h2

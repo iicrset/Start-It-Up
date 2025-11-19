@@ -16,7 +16,7 @@ export function Mentors() {
     <section className="px-4 py-20 overflow-hidden 
       bg-gradient-to-b from-white via-[#fff9e6] to-white">
 
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl relative z-10">
 
        <h2 className="mb-16 text-center text-4xl md:text-5xl font-extrabold tracking-wide text-[#8B0000]">
           Speakers – Phase 1
