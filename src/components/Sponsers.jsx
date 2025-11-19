@@ -91,7 +91,7 @@ export function Sponsers() {
                 <img
                   src={sponsor.image}
                   alt={sponsor.alt}
-                  className={`${sponsor.height} transition-opacity duration-300 group-hover:opacity-60`}
+                  className={`${sponsor.height} transition-opacity duration-300 group-hover:opacity-60 rounded-sm`}
                 />
 
                 {/* Hover bubble */}
